@@ -1,1 +1,2 @@
 # odin-landing-page
+This repository is my submission of the "Landing Page" Odin Project assignment where the user needs to reconstruct a simple landing page based on reference. By completing project I demonstrate my basic HTML, CSS, and Flexbox skills.
