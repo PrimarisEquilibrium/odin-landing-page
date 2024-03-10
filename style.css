@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 .container {
@@ -83,8 +83,8 @@ h1 {
 }
 
 .info {
-    padding: 8px 20%;
-    margin: 48px 0px;
+    padding: 8px 22%;
+    margin: 76px 0px;
 }
 
 h2 {
@@ -96,14 +96,18 @@ h2 {
 }
 
 .card-img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+    margin-bottom: 4px;
 }
 
 .card {
-    max-width: 150px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .card-container {
@@ -111,4 +115,65 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 100px 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quotee {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.cta-container {
+    padding: 8px 16%;
+    margin: 76px 0px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 36px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.signup-btn-inverted {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
