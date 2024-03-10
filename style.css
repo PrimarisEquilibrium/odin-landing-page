@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding: 8px 16%;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    gap: 48px;
+    margin: 100px 0px;
+}
+
+.hero-info {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: gray;
+    flex: 1;
+}
+
+.subtitle.inverted {
+    color: black;
+    text-align: center;
+}
+
+.info {
+    padding: 8px 20%;
+    margin: 48px 0px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card {
+    max-width: 150px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
